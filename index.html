@@ -7,11 +7,9 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2685.3">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial; color: #1a1a1a; -webkit-text-stroke: #1a1a1a}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial; color: #1a1a1a; -webkit-text-stroke: #1a1a1a; background-color: #ffffff}
     p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Arial; color: #1a1a1a; -webkit-text-stroke: #1a1a1a; min-height: 11.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; color: #1a1a1a; -webkit-text-stroke: #1a1a1a; min-height: 14.0px}
-    span.s1 {font-kerning: none; background-color: #ffffff}
-    span.s2 {font-kerning: none}
+    span.s1 {font-kerning: none}
   </style>
 </head>
 <body>
@@ -20,9 +18,9 @@
 <p class="p1"><span class="s1">&lt;head&gt;</span></p>
 <p class="p1"><span class="s1">&lt;meta charset="UTF-8"&gt;</span></p>
 <p class="p1"><span class="s1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;style&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">body {</span></p>
 <p class="p1"><span class="s1">  margin: 0;</span></p>
 <p class="p1"><span class="s1">  min-height: 100vh;</span></p>
@@ -35,12 +33,12 @@
 <p class="p1"><span class="s1">  padding-bottom: 40px;</span></p>
 <p class="p1"><span class="s1">  font-family: system-ui, sans-serif;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* Hide checkbox */</span></p>
 <p class="p1"><span class="s1">#flip {</span></p>
 <p class="p1"><span class="s1">  display: none;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">.card-wrapper {</span></p>
 <p class="p1"><span class="s1">  width: 80vw;</span></p>
 <p class="p1"><span class="s1">  height: 120vw;</span></p>
@@ -48,7 +46,7 @@
 <p class="p1"><span class="s1">  max-height: 540px;</span></p>
 <p class="p1"><span class="s1">  position: relative;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* Card faces stacked */</span></p>
 <p class="p1"><span class="s1">.card-face {</span></p>
 <p class="p1"><span class="s1">  position: absolute;</span></p>
@@ -58,28 +56,28 @@
 <p class="p1"><span class="s1">  overflow: hidden;</span></p>
 <p class="p1"><span class="s1">  transition: opacity 0.5s ease;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* Front visible by default */</span></p>
 <p class="p1"><span class="s1">.card-front {</span></p>
 <p class="p1"><span class="s1">  opacity: 1;</span></p>
 <p class="p1"><span class="s1">  z-index: 2;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* Back hidden by default */</span></p>
 <p class="p1"><span class="s1">.card-back {</span></p>
 <p class="p1"><span class="s1">  opacity: 0;</span></p>
 <p class="p1"><span class="s1">  z-index: 1;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* When flipped, fade front out and back in */</span></p>
 <p class="p1"><span class="s1">#flip:checked ~ .card-wrapper .card-front {</span></p>
 <p class="p1"><span class="s1">  opacity: 0;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">#flip:checked ~ .card-wrapper .card-back {</span></p>
 <p class="p1"><span class="s1">  opacity: 1;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">/* Image styling */</span></p>
 <p class="p1"><span class="s1">.card-face img {</span></p>
 <p class="p1"><span class="s1">  width: 100%;</span></p>
@@ -88,47 +86,44 @@
 <p class="p1"><span class="s1">  border-radius: 16px;</span></p>
 <p class="p1"><span class="s1">  border: 2px solid #e0e0e0;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">.card-label {</span></p>
 <p class="p1"><span class="s1">  display: block;</span></p>
 <p class="p1"><span class="s1">  width: 100%;</span></p>
 <p class="p1"><span class="s1">  height: 100%;</span></p>
 <p class="p1"><span class="s1">  cursor: pointer;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">.tap-hint {</span></p>
 <p class="p1"><span class="s1">  margin-top: 12px;</span></p>
 <p class="p1"><span class="s1">  font-size: 14px;</span></p>
 <p class="p1"><span class="s1">  color: #888;</span></p>
 <p class="p1"><span class="s1">}</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;/style&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/head&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;input type="checkbox" id="flip"&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;label for="flip" class="card-label"&gt;</span></p>
 <p class="p1"><span class="s1">  &lt;div class="card-wrapper"&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">    &lt;div class="card-face card-front"&gt;</span></p>
 <p class="p1"><span class="s1">      &lt;img src="card4front_v2.png" alt="Front"&gt;</span></p>
 <p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">    &lt;div class="card-face card-back"&gt;</span></p>
 <p class="p1"><span class="s1">      &lt;img src="card4back_v2.png" alt="Back"&gt;</span></p>
 <p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">  &lt;/div&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/label&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;div class="tap-hint"&gt;Tap to flip&lt;/div&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1">&lt;/body&gt;</span></p>
 <p class="p1"><span class="s1">&lt;/html&gt;</span></p>
-<p class="p2"><span class="s2"></span><br></p>
-<p class="p2"><span class="s2"></span><br></p>
-<p class="p3"><span class="s2"></span><br></p>
 </body>
 </html>
